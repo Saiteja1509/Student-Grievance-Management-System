@@ -1,0 +1,13 @@
+package model;
+
+public class Admin extends User {
+
+    public Admin(String userId, String name) {
+        super(userId, name);
+    }
+
+    @Override
+    public void displayRole() {
+        System.out.println("Role: Admin");
+    }
+}
